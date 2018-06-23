@@ -4,8 +4,8 @@ import App from "./App.js";
 import FavoritesContainer from "./components/Favorites/FavoritesContainer.jsx";
 
 export default () => (
-	<div>
-		<Route exact path="/" component={App} />
-		<Route exact path="/favorites" component={FavoritesContainer} />
-	</div>
+  <div>
+    <Route exact path="/" component={App} />
+    <Route exact path="/favorites" component={FavoritesContainer} />
+  </div>
 );

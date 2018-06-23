@@ -10,12 +10,12 @@ import ReduxThunk from "redux-thunk";
 const store = createStore(combineReducers, applyMiddleware(ReduxThunk));
 
 ReactDOM.render(
-	<Provider store={store}>
-		<BrowserRouter>
-			<Switch>
-				<Routes />
-			</Switch>
-		</BrowserRouter>
-	</Provider>,
-	document.getElementById("root")
+  <Provider store={store}>
+    <BrowserRouter>
+      <Switch>
+        <Routes />
+      </Switch>
+    </BrowserRouter>
+  </Provider>,
+  document.getElementById("root")
 );
