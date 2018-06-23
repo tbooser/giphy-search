@@ -1,0 +1,3 @@
+export const GIPHY_REQUEST = "GIPHY_REQUEST";
+export const RECEIVE_GIFS = "RECEIVE_GIFS";
+export const ADD_TO_FAVORITES = "ADD_TO_FAVORITES";
